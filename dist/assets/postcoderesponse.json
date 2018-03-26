@@ -47,3 +47,16 @@
     <app-root></app-root>
 </body>
 </html>
+
+echo "# pcz" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/arvidd/pcz.git
+git push -u origin master
+
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines"
+# name = Arvid Dijkstra
+# email = A.Dijkstra@sigmax.nl
