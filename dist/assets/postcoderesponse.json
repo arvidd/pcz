@@ -1,0 +1,49 @@
+{
+	"status":"ok",
+	"details":[
+		{
+			"street":"Breemarsweg",
+			"city":"Hengelo",
+			"municipality":"Hengelo",
+			"province":"Overijssel",
+			"postcode":"7555 KG",
+			"pnum":"7555",
+			"pchar":"KG",
+			"rd_x":"249303.37640000000000000000",
+			"rd_y":"475064.81656666666666666667",
+			"lat":"52.2555358704666",
+			"lon":"6.7683877171651"
+		}]
+}
+
+// TODO gebruik class="img-responsive"? zie oefening 301
+  private apikey : string = 'AIzaSyC37_LdQJIaxekqt1PoeM5-cONiofbqMH0'; //TODO move to environment file and use it
+
+    /* border-width: 100px; */
+    /* width: 400px; */
+    /* text-align: center; */
+    /* align-content: center; */
+
+	<div *ngIf="((address != undefined) && (address != null)) || !hidemap">
+
+	
+	<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Case02</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <style>
+      #map {
+      height: 400px;
+      width: 400px;
+      }
+  </style>
+  <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
+</head>
+<body>
+    <app-root></app-root>
+</body>
+</html>
